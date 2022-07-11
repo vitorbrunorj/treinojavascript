@@ -10,3 +10,11 @@ function decrement () {
     currentNumber = currentNumber - 1;
     currentNumberwrapper.innerHTML = currentNumber
 }
+
+const desabilita = document.getElementById('counter')
+desabilita.addEventListener('click', (e) => {
+        console.log(e)
+
+
+})
+
